@@ -6,6 +6,7 @@
     <title>Barca</title>
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/vi/9/91/FC_Barcelona_logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
     <link rel="stylesheet" href="./asset/fonts/themify-icons/themify-icons.css">
 </head>
 <body>
@@ -18,13 +19,14 @@
                 <li><a href="#tour">Match</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li>
-                    <a href="">More
+                    <a href="#">
+                        More
                         <i class="nav-down ti-angle-down"></i>
                     </a>
                     <ul class="subnav">
-                        <li><a href="">Player</a></li>
-                        <li><a href="">Achievement</a></li>
-                        <li><a href="">Media</a></li>
+                        <li><a href="#">Player</a></li>
+                        <li><a href="#">Achievement</a></li>
+                        <li><a href="#">Media</a></li>
                     </ul>
                 </li>
             </ul>
@@ -34,6 +36,10 @@
              <div class="search-btn">
                 <i class="ti-search"></i>
              </div>
+
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="ti-menu"></i>
+            </div>
             <!-- Begin search button -->
 
         </div>
@@ -50,15 +56,15 @@
                 <p class="section-sub-heading">We love Barcelona</p>
                 <p class="section-about">The nickname "culer" for Barcelona fans comes from the Catalan word "cul" (English: butt, ass), when spectators at the first stadium, Camp de la Indústria, sat with "cul" in the stands. In Spain, around 25% of the population is said to support Barça, second only to Real Madrid at 32%. Across Europe, Barcelona is the second most popular club.</p>
             <div class="row member-list">
-                <div class="col column-third text-center">
+                <div class="member-item col column-third text-center">
                     <p class="member-name">Messi</p>
                     <img src="./asset/img/team-barca/messi.jpg" alt="Messi" class="member-img">
                 </div>
-                <div class="col column-third text-center">
+                <div class="member-item col column-third text-center">
                     <p class="member-name">Puyol</p>
                     <img src="./asset/img/team-barca/barcelona-puyol.jpg" alt="Puyol" class="member-img">
                 </div>
-                <div class="col column-third text-center">
+                <div class="member-item col column-third text-center">
                     <p class="member-name">Iniesta</p>
                     <img src="./asset/img/team-barca/Iniesta-Fc-Barcelona.jfif" alt="Iniesta" class="member-img">
                 </div>
@@ -77,31 +83,31 @@
                     <li>November <span class="quantity">3</span></li>
                 </ul>
                 <div class="row place-list">
-                    <div class="col column-third">
+                    <div class="col column-third s-col-full mt-32">
                         <img src="./asset/img/place-tour/BarvsAtm.jpg" alt="BarvsAtm" class="place-img">
                         <div class="content-place">
                             <h3 class="place-heading">Cou Camp</h3>
                             <p class="place-time">Fri 24 Nov 2016</p>
                             <p class="place-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <button class="place-btn-buy js-buy-ticket">Buy Tickets</button>
+                            <button class="place-btn-buy js-buy-ticket s-full-width">Buy Tickets</button>
                         </div>
                     </div>
-                    <div class="col column-third">
+                    <div class="col column-third s-col-full mt-32">
                         <img src="./asset/img/place-tour/barvsreadl.jpg" alt="BarVSReal" class="place-img">
                         <div class="content-place">
                             <h3 class="place-heading">Cou Camp</h3>
                             <p class="place-time">Fri 27 Nov 2016</p>
                             <p class="place-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <button class="place-btn-buy js-buy-ticket">Buy Tickets</button>
+                            <button class="place-btn-buy js-buy-ticket s-full-width">Buy Tickets</button>
                         </div>
                     </div>
-                    <div class="col column-third">
+                    <div class="col column-third s-col-full mt-32">
                         <img src="./asset/img/place-tour/BarvsrealBetitjpg.jpg" alt="BarvsRealBetitjpg" class="place-img">
                         <div class="content-place">
                             <h3 class="place-heading">Cou Camp</h3>
                             <p class="place-time">Fri 30 Nov 2016</p>
                             <p class="place-text">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                            <button class="place-btn-buy js-buy-ticket">Buy Tickets</button>
+                            <button class="place-btn-buy js-buy-ticket s-full-width">Buy Tickets</button>
                         </div>
                     </div>
                 </div>
@@ -112,28 +118,28 @@
                 <h2 class="section-heading">CONTACT</h2>
                 <p class="section-sub-heading">Fan? Drop a note!</p>
                 <div class="row contact-content">
-                    <div class="col col-half contact-info">
-                        <p><i class="ti-location-pin"></i>Barcelona,Spain</p>
-                        <p><i class="ti-mobile"></i>Phone: +00 151515</p>
-                        <p><i class="ti-email"></i>Email: barca@mail.com</p>
+                    <div class="col s-col-full col col-half contact-info">
+                        <p><i class="ti-location-pin"></i> Barcelona,Spain</p>
+                        <p><i class="ti-mobile"></i>Phone:<a href="tel:+00 151515"> +00 151515</a></p>
+                        <p><i class="ti-email"></i>Email:<a href="mailto:barca@mail.com"> barca@mail.com</a>  </p>
                     </div>
-                    <div class="col col-half contact-form">
+                    <div class="col s-col-full col-hal contact-form">
                         <form action="">
                             <div class="row ">
-                                <div class="col col-half">
+                                <div class="col s-col-full col-half">
                                     <input type="text" name=""  placeholder="Name" required id="contact-name" class="form-control">
                                 </div>
-                                <div class="col col-half">
+                                <div class="col s-col-full col-half s-mt-8">
                                     <input type="email" name=""  placeholder="Email" required id="contact-email" class="form-control">
 
                                 </div>
                             </div>
-                            <div class="row mt-8">
+                            <div class="row mt-8 ">
                                 <div class="col col-full">
                                     <input type="text" name=""  placeholder="Message" required id="contact-message" class="form-control">
                                 </div>
                             </div>
-                            <input class="btn pull-right mt-16" type="submit" value="SEND">
+                            <input class="btn pull-right mt-16 s-full-width" type="submit" value="SEND">
                         </form>
                     </div>
                 </div>
@@ -219,6 +225,36 @@
         modalContainer.addEventListener('click', function(event){
             event.stopPropagation()
         })
+    </script>
+
+    <script>
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+
+        // Đóng mở Mobile
+        mobileMenu.onclick = function (){
+            var isClosed = header.clientHeight ===  headerHeight;
+            if(isClosed) {
+                header.style.height = 'auto';
+            }else {
+                header.style.height = null;
+            }
+        }
+        // Tự động đóng mở mobile
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for (var i =0; i < menuItems.length; i++){
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function (){
+            var isParentMenu = this.nextElementSibling && menuItem.nextElementSibling.classList.contains('subnav');
+                if(!isParentMenu){
+                    header.style.height = null;
+                }else{
+                    event.preventDefault;
+                }
+            }
+        }
     </script>
 </body>
 </html>
